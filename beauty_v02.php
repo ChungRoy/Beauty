@@ -7,6 +7,7 @@ function main_func(){
 	$after_url=crawl_page("https://www.ptt.cc/bbs/Beauty/index".$final_page.".html", 5);
 	$final_url=first_cut($after_url);
 	echo "{\"text\": \"https://webptt.com/m.aspx?n=" . $final_url . "\"}";
+	echo "test";
 }
 
 
